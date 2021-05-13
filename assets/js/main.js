@@ -22,3 +22,8 @@ $(".card .btn").click(function(event) {
   event.preventDefault();
   $(this).siblings(".card-text").toggle();
 });
+
+//Cambiar color navbar
+$(".navbar-toggler").click(function() {
+  $(".navbar").toggleClass('bg-info');
+});

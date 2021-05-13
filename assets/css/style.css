@@ -75,8 +75,10 @@ img {
   margin-top: 100px;
 }
 
+
 footer .lista {
   margin-bottom: 0;
+  padding-left: 0;
 }
 
 footer .lista a{
@@ -85,4 +87,16 @@ footer .lista a{
 
 footer .lista .fab{
   font-size: 2.5rem;
+}
+
+/*Mobile*/
+@media (max-width: 767.98px) {
+
+  h3{
+    font-size: 1.2rem;
+  }
+  footer .lista .fab{
+    font-size: 1.6rem;
+  }
+
 }
