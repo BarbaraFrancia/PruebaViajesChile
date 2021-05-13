@@ -1,3 +1,4 @@
+//Agregar fondo en scroll a navbar
 $(window).scroll(function() {
 
   if ($(this).scrollTop() > 100) {
@@ -11,3 +12,13 @@ $(window).scroll(function() {
   }
 
 })
+
+//Inicializar tooltips
+$('[data-toggle="tooltip"]').tooltip()
+
+
+//Botones de cards
+$(".card .btn").click(function(event) {
+  event.preventDefault();
+  $(this).siblings(".card-text").toggle();
+});

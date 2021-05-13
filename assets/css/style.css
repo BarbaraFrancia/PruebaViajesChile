@@ -36,12 +36,26 @@ header nav .navbar-brand img{
   max-width: 25px;
 }
 
+img {
+  display: block;
+  width: 100%;
+}
+
 .hero-carrousel .carousel-item{
   max-height: 700px;
 }
 
 .quienessomos .fas{
   font-size: 2rem;
+}
+
+.quienessomos  .data-modal {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.quienessomos  .data-modal:hover {
+  background-color: #48818a !important;
+  transition: all 0.5s;
 }
 
 .destacados {
@@ -51,6 +65,10 @@ header nav .navbar-brand img{
 .destacados img{
   max-height: 170px;
   object-fit: cover;
+}
+
+.destacados .card-text{
+  display: none;
 }
 
 .typeform {
