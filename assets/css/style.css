@@ -1,0 +1,18 @@
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body{
+  background-color: #000;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header nav .navbar-brand img{
+  max-width: 25px;
+}
+
+
+.hero-carrousel .carousel-item{
+  max-height: 700px;
+}
