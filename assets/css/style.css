@@ -3,27 +3,28 @@ html {
   font-size: 16px;
 }
 
-body{
+body {
   background-color: #000;
   font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 h2 {
-    font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 
 h3 {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
-p{
+p {
   font-size: 1rem;
 }
-header .navbar{
+
+header .navbar {
   transition: all 0.2s;
 }
 
@@ -32,7 +33,7 @@ header nav .navbar-brand {
   align-items: center;
 }
 
-header nav .navbar-brand img{
+header nav .navbar-brand img {
   max-width: 25px;
 }
 
@@ -41,19 +42,20 @@ img {
   width: 100%;
 }
 
-.hero-carrousel .carousel-item{
+.hero-carrousel .carousel-item {
   max-height: 700px;
 }
 
-.quienessomos .fas{
+.quienessomos .fas {
   font-size: 2rem;
 }
 
-.quienessomos  .data-modal {
+.quienessomos .data-modal {
   cursor: pointer;
   transition: all 0.5s;
 }
-.quienessomos  .data-modal:hover {
+
+.quienessomos .data-modal:hover {
   background-color: #48818a !important;
   transition: all 0.5s;
 }
@@ -62,12 +64,12 @@ img {
   margin-top: 100px;
 }
 
-.destacados img{
+.destacados img {
   max-height: 170px;
   object-fit: cover;
 }
 
-.destacados .card-text{
+.destacados .card-text {
   display: none;
 }
 
@@ -75,28 +77,26 @@ img {
   margin-top: 100px;
 }
 
-
 footer .lista {
   margin-bottom: 0;
   padding-left: 0;
 }
 
-footer .lista a{
-    color: #fff;
+footer .lista a {
+  color: #fff;
 }
 
-footer .lista .fab{
+footer .lista .fab {
   font-size: 2.5rem;
 }
 
 /*Mobile*/
 @media (max-width: 767.98px) {
-
-  h3{
+  h3 {
     font-size: 1.2rem;
   }
-  footer .lista .fab{
+
+  footer .lista .fab {
     font-size: 1.6rem;
   }
-
 }
